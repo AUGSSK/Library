@@ -260,7 +260,7 @@ public class ManageBook extends javax.swing.JFrame {
               
                 resultField.setText("Successfull");
                 DefaultListModel bl=new DefaultListModel();
-                bl.addElement(result);
+                bl.addElement("Title");
                 listBook.setModel(bl);
                                                           
                 
